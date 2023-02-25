@@ -1,0 +1,117 @@
+* {
+  font-weight: normal;
+  background-repeat: no-repeat;
+}
+.footer {
+  background-image: url("../images/footer-background.png");
+}
+.header_backgroud_grand-canyon {
+  background-image: url("../images/index/background.png");
+}
+.p {
+  font-family: "Oxygen", sans-serif;
+  color: #2e2e2e;
+}
+.logo__p {
+  font-family: "Lora", serif;
+  font-size: 26px;
+}
+.heading__p {
+  font-size: 17px;
+  opacity: 0.63;
+}
+.article__p {
+  font-size: 24px;
+  color: #101315;
+}
+.large-card__p {
+  font-size: 14px;
+  color: #ffffffb2;
+}
+.small-card__p {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+.p_color_white {
+  color: white;
+}
+.a {
+  font-family: "Oxygen", sans-serif;
+  font-size: 12px;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+.nav__a {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  color: #768088;
+}
+.large-card__a {
+  font-family: "Lora", serif;
+  font-size: 27px;
+  color: white;
+}
+.small-card__a {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  color: #101315;
+}
+.a_transform_uppercase {
+  text-transform: uppercase;
+}
+.a_color_white {
+  color: white;
+}
+.h1 {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  color: #2e2e2e;
+}
+.h1_color_white {
+  color: white;
+}
+.button {
+  height: 44px;
+  border: none;
+  border-radius: 3px;
+  background-color: #dd783f;
+  font-family: "Oxygen", sans-serif;
+  font-size: 13px;
+}
+.h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  color: #2e2e2e;
+}
+.large-card_background_the-road-ahead {
+  background-image: url("../images/index/cards/the-road-ahead.png");
+}
+.large-card_background_from-top-down {
+  background-image: url("../images/index/cards/from-top-down.png");
+}
+.category {
+  font-family: "Oxygen", sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #dd783f;
+  border-radius: 2px;
+  padding: 10px;
+}
+.name {
+  font-family: "Oxygen", sans-serif;
+  font-size: 12px;
+  color: #ffffffb2;
+}
+.small-card__name {
+  font-size: 11px;
+  color: #999999;
+}
+.date {
+  font-family: "Oxygen", sans-serif;
+  font-size: 12px;
+  color: #ffffffb2;
+}
+.small-card__date {
+  color: #999999;
+}

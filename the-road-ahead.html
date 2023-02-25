@@ -3,23 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <title>The Road Ahead</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <p>Escape.</p>
-      <nav>
-        <a href="./">HOME</a>
-        <a href="">CATEGORIES</a>
-        <a href="">ABOUT</a>
-        <a href="">CONTACT</a>
-      </nav>
+    <header class="header">
+      <div class="logo header__logo">
+        <p class="p logo__p">Escape.</p>
+      </div>
+      <div class="menu header__menu">
+        <a href="./" class="a menu__a a_transform_uppercase">Home</a>
+        <a href="" class="a menu__a a_transform_uppercase">Categories</a>
+        <a href="" class="a menu__a a_transform_uppercase">About</a>
+        <a href="" class="a menu__a a_transform_uppercase">Contact</a>
+      </div>
     </header>
-    <main>
-      <article>
-        <h1>The Road Ahead</h1>
-        <p>The road ahead might be paved - it might not be.</p>
-        <img src="./images/the-road-ahead/background.png" alt="" />
-        <p>
+    <main class="main">
+      <article class="article main__article">
+        <div class="heading article__heading">
+          <h1 class="h1 heading__h1">The Road Ahead</h1>
+          <p class="p heading__p">
+            The road ahead might be paved - it might not be.
+          </p>
+        </div>
+        <img
+          src="./images/the-road-ahead/background.png"
+          alt=""
+          class="img article__img"
+        />
+        <p class="p article__p">
           Dark spruce forest frowned on either side the frozen waterway. The
           trees had been stripped by a recent wind of their white covering of
           frost, and they seemed to lean towards each other, black and ominous,
@@ -33,7 +50,7 @@
           the futility of life and the effort of life. It was the Wild, the
           savage, frozen-hearted Northland Wild.
         </p>
-        <p>
+        <p class="p article__p">
           But there was life, abroad in the land and defiant. Down the frozen
           waterway toiled a string of wolfish dogs. Their bristly fur was rimed
           with frost. Their breath froze in the air as it left their mouths,
@@ -49,7 +66,7 @@
           prominent, occupying most of the space, was the long and narrow oblong
           box.
         </p>
-        <p>
+        <p class="p article__p">
           In advance of the dogs, on wide snowshoes, toiled a man. At the rear
           of the sled toiled a second man. On the sled, in the box, lay a third
           man whose toil was over,—a man whom the Wild had conquered and beaten
@@ -63,7 +80,7 @@
           against the dictum that all movement must in the end come to the
           cessation of movement.
         </p>
-        <p>
+        <p class="p article__p">
           But at front and rear, unawed and indomitable, toiled the two men who
           were not yet dead. Their bodies were covered with fur and soft-tanned
           leather. Eyelashes and cheeks and lips were so coated with the
@@ -77,14 +94,24 @@
         </p>
       </article>
     </main>
-    <footer>
-      <p>Escape.</p>
-      <nav>
-        <a href="./">HOME</a>
-        <a href="">CATEGORIES</a>
-        <a href="">ABOUT</a>
-        <a href="">CONTACT</a>
-      </nav>
+    <footer class="footer">
+      <div class="logo footer__logo">
+        <p class="p logo__p p_color_white">Escape.</p>
+      </div>
+      <div class="menu footer__menu">
+        <a href="./" class="a menu__a a_color_white a_transform_uppercase"
+          >Home</a
+        >
+        <a href="" class="a menu__a a_color_white a_transform_uppercase"
+          >Categories</a
+        >
+        <a href="" class="a menu__a a_color_white a_transform_uppercase"
+          >About</a
+        >
+        <a href="" class="a menu__a a_color_white a_transform_uppercase"
+          >Contact</a
+        >
+      </div>
     </footer>
   </body>
 </html>
