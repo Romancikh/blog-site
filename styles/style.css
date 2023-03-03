@@ -8,66 +8,66 @@
 .header_backgroud_grand-canyon {
   background-image: url("../images/index/background.png");
 }
-.p {
+.text {
   font-family: "Oxygen", sans-serif;
   color: #2e2e2e;
 }
-.logo__p {
+.logo__text {
   font-family: "Lora", serif;
   font-size: 26px;
 }
-.heading__p {
+.title__text {
   font-size: 17px;
   opacity: 0.63;
 }
-.article__p {
+.article__text {
   font-size: 24px;
   color: #101315;
 }
-.large-card__p {
+.large-card__text {
   font-size: 14px;
   color: #ffffffb2;
 }
-.small-card__p {
+.small-card__text {
   font-size: 13px;
   color: #7a7a7a;
 }
-.p_color_white {
+.text_color_white {
   color: white;
 }
-.a {
+.link {
   font-family: "Oxygen", sans-serif;
   font-size: 12px;
   color: #2e2e2e;
   text-decoration: none;
 }
-.nav__a {
+.nav__link {
   font-family: "Lora", serif;
   font-size: 14px;
   color: #768088;
 }
-.large-card__a {
+.large-card__link {
   font-family: "Lora", serif;
   font-size: 27px;
   color: white;
 }
-.small-card__a {
+.small-card__link {
   font-family: "Lora", serif;
   font-size: 16px;
   color: #101315;
 }
-.a_transform_uppercase {
+.link_transform_uppercase {
   text-transform: uppercase;
 }
-.a_color_white {
+.link_color_white {
   color: white;
 }
-.h1 {
+.heading-1 {
   font-family: "Lora", serif;
   font-size: 50px;
   color: #2e2e2e;
 }
-.h1_color_white {
+.heading-1_color_white {
   color: white;
 }
 .button {
@@ -78,7 +78,7 @@
   font-family: "Oxygen", sans-serif;
   font-size: 13px;
 }
-.h2 {
+.heading-2 {
   font-family: "Oxygen", sans-serif;
   font-size: 20px;
   color: #2e2e2e;
